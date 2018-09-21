@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:fitsSystemWindows="false">
+
+        <!--<android.support.design.widget.CollapsingToolbarLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/action_bar_size"
+            android:background="@color/colorPrimary"
+            app:layout_scrollFlags="snap"
+            app:titleTextAppearance="@style/GanyingTitleAppearance"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refreshLayout"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ExpandableListView
+            android:id="@+id/expandListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ExpandableListView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:visibility="invisible"
+        app:layout_behavior="net.suntrans.suntranscomponents.behavior.FBehavior"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_done_white_24dp"
+        android:id="@+id/fab"
+        app:pressedTranslationZ="8dp"
+        android:background="@color/colorPrimary"
+        app:rippleColor="@color/colorPrimary"
+        app:fabSize="normal"
+        app:useCompatPadding="true"
+        app:layout_anchor="@+id/refreshLayout"
+        app:layout_anchorGravity="bottom|right|end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:skin="http://schemas.android.com/android/skin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    android:orientation="vertical"
+    skin:enable="true">
+
+    <View
+        android:id="@+id/statusBarFix"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimaryDark" />
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/headerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="false"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fitsSystemWindows="false">
+
+            <!--<android.support.design.widget.CollapsingToolbarLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+<include layout="@layout/toolbar_no_fix"/>
+        </android.support.design.widget.AppBarLayout>
+
+        <net.suntrans.haipopeiwang.widget.ColorfulSwipeRefreshLayout
+            android:id="@+id/ColorfulSwipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+        </net.suntrans.haipopeiwang.widget.ColorfulSwipeRefreshLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">SuntransComponents</string>
+    <string name="interaction_time">时间段:%1$s</string>
+    <string name="tx_name">名字</string>
+    <string name="tx_hint_name">请输入名称</string>
+    <string name="tx_link_srd">关联测控器</string>
+    <string name="tx_select">请选择</string>
+    <string name="tx_open_light_has">有人开灯</string>
+    <string name="tx_close_light_no">无人关灯</string>
+    <string name="tx_delay">无人关灯延时时间</string>
+    <string name="tx_time">时间段</string>
+    <string name="tx_add">添加</string>
+    <string name="title_add_interaction">添加感应</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_interaction">感应设置</string>
+    <string name="title_interaction_add">添加感应设置</string>
+    <string name="title_channel_list">选择通道</string>
+    <string name="tips_no_devices">请至少选择一个设备</string>
+    <string name="tips">提示</string>
+    <string name="tips_selector_channel">是否添加%1$s个设备</string>
+    <string name="tx_link_device">关联设备</string>
+    <string name="tips_more_srd">只能选择一个感应设备</string>
+    <string name="title_srd_list">选择感应器</string>
+    <string name="unit_min">分</string>
+    <string name="tips_no_more_time">最多只能添加3个时间段</string>
+    <string name="txView_title_time">时间</string>
+    <string name="tips_name_empty">名称不能为空</string>
+    <string name="tips_no_srd">请选择一个感应器</string>
+    <string name="tips_create_ganying">正在创建感应设置...</string>
+    <string name="tips_time_error">第%1$d个时间段开始时间不能大于起始时间</string>
+    <string name="title_edit_interaction">编辑感应设置</string>
+    <string name="item_edit">编辑</string>
+    <string name="item_delete">删除</string>
+    <string name="tips_loading">加载中...</string>
+    <string name="txView_sub_title_time">不添加默认0~24小时</string>
+    <string name="tx_empty">空无一物</string>
+</resources>

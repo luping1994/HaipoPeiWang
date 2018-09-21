@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">三川智家</string>
+    <string name="txt_auto_link">一键配网</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="title_choose_project">请选择项目</string>
+    <string name="tips_host_setting">是否将此设备配置%1$s服务器上</string>
+    <string name="tips_setting">正在设置,请稍后...</string>
+    <string name="addr">通信地址:%1$s(%2$s)</string>
+    <string name="tips_update">确定升级?</string>
+    <string name="tips_not_sup_device">暂不支持的设备类型</string>
+    <string name="tips_waiting">请稍后再试!</string>
+    <string name="tips_get_network_state">获取您的网络状态</string>
+    <string name="tips_get_write_storage">存储权限</string>
+    <string name="tips_change_wifi_state">改变wifi状态</string>
+    <string name="tips_is_exit">是否退出应用</string>
+    <string name="not_named">未命名</string>
+    <string name="tips_contain_ssid_password">请确认SSID和密码</string>
+    <string name="tips_cmd_sent">命令已发送</string>
+    <string name="title_auto_link">一键配网</string>
+    <string name="navigation_drawer_open">打开</string>
+    <string name="navigation_drawer_close">关闭</string>
+    <string name="tips_exit">是否退出应用</string>
+    <string name="tips">提示</string>
+    <string name="title_login">欢迎登录三川智控</string>
+    <string name="txt_login_protocal">登录代表你同意</string>
+    <string name="tips_error_phone_num">格式有误</string>
+    <string name="title_input_verification">输入验证码</string>
+    <string name="tips_login_success">登录成功!</string>
+    <string name="tips_login">正在验证,请稍后</string>
+    <string name="title_get_code">获取短信验证码</string>
+    <string name="title_password_login">密码登录</string>
+    <string name="title_account_login">验证码登录</string>
+    <string name="title_bt_login">登录</string>
+    <string name="tx_params">参数</string>
+    <string name="tx_host">主机</string>
+    <string name="tx_bind">绑定</string>
+    <string name="tips_bind_device">是否绑定</string>
+    <string name="tips_loading">请稍后</string>
+    <string name="tips_not_find_wx">您未安装微信客户端</string>
+    <string name="tips_binding_already">已绑定</string>
+    <string name="tips_binding_unbind">当前账号已经绑定微信,是否解绑</string>
+
+
+    <string name="contacts_way">服务热线:020-8636-1851</string>
+    <!-- 关于、公司、版权 -->
+    <string name="company_reserved">Copyright © 2018 广州三川控制系统工程设备有限公司版权所有</string>
+    <string name="company_name_CH">广州三川控制系统工程设备有限公司</string>
+    <string name="company_name_EN">Copyright © 2018 Suntrans. All rights reserved.</string>
+    <string name="title_about">关于</string>
+    <string name="title_protocol">用户协议</string>
+
+    <string name="abcd123">abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789</string>
+    <string name="tips_no_wifi">当前未连接到wifi,是否打开设置</string>
+    <string name="tx_input_phone">请输入手机号</string>
+    <string name="main_banner">主页Banner</string>
+    <string name="title_smart_control">智能控制</string>
+    <string name="title_devices_and_charge">设备与缴费</string>
+    <string name="tips_excute_scene">是否执行%1$s?</string>
+    <string name="title_room">房间</string>
+    <string name="title_interaction">感应设置</string>
+    <string name="title_interaction_add">添加感应设置</string>
+    <string name="title_energy">能耗</string>
+    <string name="title_me">我的</string>
+    <string name="fbHideBehavior">net.suntrans.haipopeiwang.fragment.BehaviorDefault</string>
+    <string name="tx_device_state">设备状态</string>
+
+</resources>

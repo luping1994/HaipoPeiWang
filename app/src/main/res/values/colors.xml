@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1296db</color>
+    <color name="colorPrimaryDark">#1296db</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="nav_divider">#eeeeee</color>
+
+    <color name="secondtextcolor">#c3c3c3</color>
+    <color name="item_press_false">#ffffff</color>
+    <color name="item_press_true">#f2f3f5</color>
+    <color name="item_press_true_selector">#c9c9c9</color>
+    <color name="ripper_color">#c9c9c9</color>
+    <color name="divider_color">#ebebeb</color>
+    <color name="blue">#1296db</color>
+    <color name="gray">#999999</color>
+
+    <color name="channel_off">#999999</color>
+    <color name="channel_on">#23870f</color>
+    <color name="colorUsed">#23870f</color>
+    <color name="sub_tx_color">#a9a9a9</color>
+</resources>

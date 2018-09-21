@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="item_tx_color">#333333</color>
+    <color name="colorPrimary">#1296db</color>
+    <color name="colorPrimaryDark">#1296db</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="empty_tip_color">#bfbfbf</color>
+</resources>
